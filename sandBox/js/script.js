@@ -1,19 +1,9 @@
 function blargh(str) {
 
-    var newString;
 
-    newString = str;
+    str.entries();
 
-    // console.log(newString)
-
-    for (var i = 0; i < str.length; i++) {
-
-        console.log(newString)
-
-
-
-    }
-
+    console.log(str)
 
 
 
@@ -21,4 +11,4 @@ function blargh(str) {
 // var newString = 'bam';
 // console.log(newString)
 
-blargh('hi i am the string')
+blargh([1, 24, 53, 34, 225, 6, 2745, 8, 89, 9, ])
